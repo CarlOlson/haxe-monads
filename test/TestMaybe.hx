@@ -30,4 +30,13 @@ class TestMaybe {
     	Assert.equals(none() && just(1), none());
 	Assert.same(just(0) && just(1), just(1));
     }
+
+    public function test_bind_assigns_value() {
+	var value = 0;
+
+	Assert.isFalse(bind(none(), value));
+	Assert.isTrue(bind(just(1), value));
+
+	Assert.equals(value, 1);
+    }
 }

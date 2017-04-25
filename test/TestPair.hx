@@ -23,4 +23,16 @@ class TestPair {
 	Assert.is(pair.left, Int);
 	Assert.is(pair.right, String);
     }
+
+    public function test_pairBind_assigns_values() {
+	var left = null,
+	    right = null,
+	    pair = makePair(0, 1);
+
+	Assert.isFalse(bindPair(none(), left, right));
+	Assert.isTrue(bindPair(just(pair), left, right));
+
+	Assert.equals(left, 0);
+	Assert.equals(right, 1);
+    }
 }
