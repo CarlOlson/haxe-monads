@@ -1,0 +1,13 @@
+{
+    "name": "monads",
+    "url" : "https://github.com/carlolson/haxe-monads/",
+    "license": "Public",
+    "tags": ["functional", "monads", "macros"],
+    "description": "This library adds support for more monadic programming.",
+    "version": "0.1.0",
+    "classPath": "src/",
+    "releasenote": "In-progress",
+    "contributors": ["Carl Olson"],
+    "dependencies": {
+    }
+}
