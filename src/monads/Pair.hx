@@ -1,3 +1,5 @@
+package monads;
+
 typedef PairImpl<T, R> = { left:T, right:R };
 
 abstract Pair<T, R>(PairImpl<T, R>) {

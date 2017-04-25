@@ -1,3 +1,5 @@
+package;
+
 import utest.Runner;
 import utest.ui.Report;
 

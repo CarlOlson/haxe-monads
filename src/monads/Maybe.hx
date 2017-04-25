@@ -1,3 +1,5 @@
+package monads;
+
 enum MaybeImpl<T> {
     None;
     Just(value:T);

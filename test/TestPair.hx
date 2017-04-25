@@ -1,5 +1,7 @@
+package;
+
 import utest.Assert;
-import Monads.*;
+import monads.Monads.*;
 
 class TestPair {
     public function new() {};

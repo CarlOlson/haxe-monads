@@ -1,6 +1,7 @@
+package;
+
 import utest.Assert;
-import Monads.*;
-import Maybe.MaybeImpl;
+import monads.Monads.*;
 
 class TestMaybe {
     public function new() {};
