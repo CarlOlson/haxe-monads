@@ -39,4 +39,13 @@ class TestMaybe {
 
 	Assert.equals(value, 1);
     }
+
+    public function test_apply() {
+	function add1(n) {
+	    return just(n + 1);
+	}
+
+	Assert.equals(none().apply(add1), none());
+	Assert.same(just(0).apply(add1), just(1));
+    }
 }
