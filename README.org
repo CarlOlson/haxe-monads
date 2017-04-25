@@ -2,11 +2,13 @@
 Library for working with monads.  The focus is around ease of use over
 being accurate in the representation of monads.
 
+Just add =import Monads.*= to your files.
+
 ** Implements
 - Maybe
 - Pair
 
 * Testing
-After installing the nix package manager, just run `nix-shell` in the
-project directory.  From inside the nix shell run `make` to install
+After installing the nix package manager, just run =nix-shell= in the
+project directory.  From inside the nix shell run =make= to install
 dependencies and execute tests.
