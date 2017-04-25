@@ -6,10 +6,10 @@ class Monads {
     }
 
     public static function just<T>(value:T):Maybe<T> {
-	return Just(value);
+    	return Maybe.just(value);
     }
 
     public static function none<T>():Maybe<T> {
-	return None;
+    	return Maybe.none();
     }
 }
