@@ -1,0 +1,1 @@
+typedef Pair<T, R> = { left:T, right:R };
