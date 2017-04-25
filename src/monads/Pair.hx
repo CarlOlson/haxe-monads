@@ -2,7 +2,7 @@ package monads;
 
 typedef PairImpl<T, R> = { left:T, right:R };
 
-abstract Pair<T, R>(PairImpl<T, R>) {
+abstract Pair<T, R>(PairImpl<T, R>) to PairImpl<T, R> from PairImpl<T, R> {
     inline public function new(left:T, right:R)
 	this = {left: left, right: right};
 

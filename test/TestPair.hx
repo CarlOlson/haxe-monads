@@ -35,4 +35,14 @@ class TestPair {
 	Assert.equals(left, 0);
 	Assert.equals(right, 1);
     }
+
+    public function test_can_cast_with_implementation() {
+	function mytest (pair:monads.Pair<Int, Int>) {
+	    return 0;
+	}
+
+	var pair = {left: 0, right: 1};
+	mytest(pair); // compile error
+	Assert.pass();
+    }
 }
