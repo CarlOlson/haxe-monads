@@ -2,7 +2,7 @@
 Library for working with monads.  The focus is around ease of use over
 being accurate in the representation of monads.
 
-Just add =import Monads.*= to your files.
+Just add =import monads.Monads= and =import monads.Monads.*= to your files.
 
 ** Implements
 - Maybe
