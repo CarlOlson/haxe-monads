@@ -1,6 +1,10 @@
 package monads;
 import haxe.macro.*;
 
+typedef Maybe<T> = monads.core.Maybe<T>;
+
+typedef Pair<R, T> = monads.core.Pair<R, T>;
+
 class Monads {
     private function new() {}
 

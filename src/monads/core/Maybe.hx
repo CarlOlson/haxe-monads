@@ -1,4 +1,4 @@
-package monads;
+package monads.core;
 
 enum MaybeImpl<T> {
     None;

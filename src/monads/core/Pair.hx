@@ -1,4 +1,4 @@
-package monads;
+package monads.core;
 
 typedef PairImpl<T, R> = { left:T, right:R };
 

@@ -1,6 +1,7 @@
 package;
 
 import utest.Assert;
+import monads.Monads;
 import monads.Monads.*;
 
 class TestPair {
@@ -37,7 +38,7 @@ class TestPair {
     }
 
     public function test_can_cast_with_implementation() {
-	function mytest (pair:monads.Pair<Int, Int>) {
+	function mytest (pair:Pair<Int, Int>) {
 	    return 0;
 	}
 
